@@ -1,0 +1,42 @@
+h1{
+  border: 2px solid black;
+  margin: 30px;
+  text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient( 102.7deg, rgba(253,218,255,1) 8.2%, rgba(223,173,252,1) 19.6%, rgba(173,205,252,1) 36.8%, rgba(173,252,244,1) 73.2%, rgba(202,248,208,1) 90.9% );
+    color: darkblue ;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    flex-direction: column;
+  }
+  
+  
+  .dropbox {
+    border: 2px dashed green;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .dropbox {
+    color: darkorchid;
+    width:300px;
+    height:40px;
+  }
+  
+  .dropbox.active {
+    border-color: #2196F3;;
+  }
+  
+  .drag-drop-container.active .drag-drop-message{
+    color:#2196F3;
+  }
+ 
+  
